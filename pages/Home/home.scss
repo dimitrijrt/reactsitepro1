@@ -1,0 +1,103 @@
+.homeimg {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 223px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.cardcontain {
+    display: grid;
+    gap: 24px;
+    
+    grid-template-columns: repeat(3, 2fr);
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #F6F6F6;
+    padding-right: 0px;
+    
+    
+   
+   
+}
+
+.card {
+    
+}
+
+
+ .images {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    ;
+    background-color: salmon;
+    ;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 85%;
+    display: flex;
+        align-items: end;
+        
+    height:340px;
+    object-fit: cover;
+    
+    
+    
+}
+
+
+
+
+.titrehome {
+ color: white;
+ font-size: 18px;
+ 
+ margin-top: -50px;
+ position:absolute;
+ text-align: left;
+ margin-left: -12%;
+ 
+ 
+}
+
+.titlekasa {
+        color: white;
+    
+        font-weight: 500;
+         font-size: clamp(20px, 4vw, 48px);
+        position: absolute;
+            top: 22.04%;
+            left: 20.6%;
+            right: 20.53%;
+            bottom: 45.05%;
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 100%;
+       
+        
+
+}
+
+.home {
+    padding: 0px 65px 0px 65px;
+}
+@media screen and (max-width:599px) {
+    
+    .cardcontain {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titrehome {
+        margin-left: -29%;
+    }
+
+    .home {
+        padding: 0px 30px 0px 30px;
+    }
+
+    .nav {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

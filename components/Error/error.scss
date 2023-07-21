@@ -1,0 +1,27 @@
+
+
+Body { 
+    font-size:36px;
+
+color:salmon;
+
+text-align:center;
+
+.title {
+    font-size: 288px;
+
+}
+}
+
+.link {
+    font-size: 18px;
+    color: salmon;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.errortxt {
+    color:salmon;
+}
